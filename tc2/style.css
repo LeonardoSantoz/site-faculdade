@@ -1,0 +1,118 @@
+.container-fluid {
+    margin: 20px;
+    font-family: Blinker;
+    font-size: 15px;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid,
+.row div,
+figure {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+header,
+aside {    
+    background-color: #FFFFCA;
+}
+
+figure img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#mainNavigation ul {
+    list-style-type: none;
+    margin-bottom: 0;        
+    font-size: 17px;     
+}
+
+#mainNavigation ul,
+aside div div {
+    text-align: center;
+}
+
+#mainNavigation ul,
+footer,
+article h3 {
+    background-color: #302A2D;   
+}
+
+#mainNavigation ul,
+footer,
+article h3,
+aside,
+input {
+    padding: 20px !important;
+}
+
+#mainNavigation ul li {    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mainNavigation ul li a,
+#mainNavigation ul li a:hover,
+footer,
+article h3 {
+    color: #FFF;
+}
+
+i {
+    color: #302A2D;
+}
+
+#mainNavigation {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px !important;
+}
+
+aside div div,
+article {
+    background-color: #FFF;
+}
+
+aside div div {
+    padding: 10px 20px 10px 20px;
+}
+
+aside div:first-of-type div:first-of-type,
+aside div:nth-of-type(2) div:first-of-type {    
+    border-right: solid 10px #FFFFCA;
+}
+
+aside div:first-of-type div:nth-of-type(2),
+aside div:nth-of-type(2) div:nth-of-type(2) {    
+    border-left: solid 10px #FFFFCA;
+}
+
+aside div:first-of-type div {
+    border-bottom: solid 10px #FFFFCA;
+}
+
+aside div:nth-of-type(2) div {
+    border-top: solid 10px #FFFFCA;
+}
+
+aside article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside article h3 {
+    margin: 0;
+}
+
+aside article nav ul {
+    padding: 20px 20px 20px 40px;
+    font-size: 15px !important;
+}
